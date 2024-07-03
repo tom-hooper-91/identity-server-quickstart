@@ -13,7 +13,8 @@ public static class Config
     public static IEnumerable<ApiScope> ApiScopes =>
         new[]
         {
-            new ApiScope(name: "api1", displayName: "My API")
+            new ApiScope(name: "api1", displayName: "My API"),
+            new ApiScope(name: "api2", displayName: "My Other API")
         };
 
 
